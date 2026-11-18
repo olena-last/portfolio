@@ -2,7 +2,7 @@
 
 export default function Navbar() {
     return (
-        <nav id="navbar">
+        <nav id="navbar" className="sticky top-0 z-50">
             <button id="nav-home" onClick={() => window.location.href = '#hero-section'}>
                 Home
             </button>
