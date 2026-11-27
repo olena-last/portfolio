@@ -1,9 +1,17 @@
+
+import BasicSection from "@/components/ui/BasicSection";
+
 export default function Projects() {
     return (
-        <section id="projects-section" className="section bg-background py-24">
-            <div className="page-container">
-                <h2>PROJECTS</h2>
-            </div>
-        </section>
+        <BasicSection
+            id="projects-section"
+            number="03"
+            title="Projects"
+            layout="stacked"
+        >
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            Content for the Projects section goes here. You can add more details about your projects, including descriptions, links, and images.
+        </div>
+        </BasicSection>
     );
 }

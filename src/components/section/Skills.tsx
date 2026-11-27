@@ -1,9 +1,15 @@
+import BasicSection from "@/components/ui/BasicSection";
+
 export default function Skills() {
     return (
-        <section id="skills-section" className="section bg-background py-24">
-            <div className="page-container">
-                <h2>SKILLS</h2>
+        <BasicSection
+            id="skills-section"
+            number="04"
+            title="Skills"
+        >
+            <div>
+                My Skills content goes here. You can add more details about your technical skills, certifications, and other qualifications in this section.
             </div>
-        </section>
+        </BasicSection>
     );
 }

@@ -1,9 +1,16 @@
+
+import BasicSection from "@/components/ui/BasicSection";
+
 export default function Experience() {
     return (
-        <section id="experience-section" className="section bg-background py-24">
-            <div className="page-container">
-                <h2>EXPERIENCE</h2>
+        <BasicSection
+            id="experience-section"
+            number="02"
+            title="Experience"
+        >
+            <div>
+                My Experience content goes here. You can add more details about your work experience, projects, and achievements in this section.
             </div>
-        </section>
+        </BasicSection>
     );
 }
